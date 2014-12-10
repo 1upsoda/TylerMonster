@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		823140461A389B2B00FD1BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823140451A389B2B00FD1BFC /* AppDelegate.swift */; };
+		823140481A389B2B00FD1BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823140471A389B2B00FD1BFC /* ViewController.swift */; };
+		8231404B1A389B2B00FD1BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823140491A389B2B00FD1BFC /* Main.storyboard */; };
+		8231404D1A389B2B00FD1BFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8231404C1A389B2B00FD1BFC /* Images.xcassets */; };
+		823140501A389B2B00FD1BFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8231404E1A389B2B00FD1BFC /* LaunchScreen.xib */; };
+		8231405C1A389B2B00FD1BFC /* TylerMonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8231405B1A389B2B00FD1BFC /* TylerMonsterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		823140561A389B2B00FD1BFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 823140381A389B2B00FD1BFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8231403F1A389B2B00FD1BFC;
+			remoteInfo = TylerMonster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		823140401A389B2B00FD1BFC /* TylerMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TylerMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		823140441A389B2B00FD1BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823140451A389B2B00FD1BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		823140471A389B2B00FD1BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8231404A1A389B2B00FD1BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8231404C1A389B2B00FD1BFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8231404F1A389B2B00FD1BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		823140551A389B2B00FD1BFC /* TylerMonsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TylerMonsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8231405A1A389B2B00FD1BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8231405B1A389B2B00FD1BFC /* TylerMonsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TylerMonsterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8231403D1A389B2B00FD1BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823140521A389B2B00FD1BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		823140371A389B2B00FD1BFC = {
+			isa = PBXGroup;
+			children = (
+				823140421A389B2B00FD1BFC /* TylerMonster */,
+				823140581A389B2B00FD1BFC /* TylerMonsterTests */,
+				823140411A389B2B00FD1BFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		823140411A389B2B00FD1BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				823140401A389B2B00FD1BFC /* TylerMonster.app */,
+				823140551A389B2B00FD1BFC /* TylerMonsterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		823140421A389B2B00FD1BFC /* TylerMonster */ = {
+			isa = PBXGroup;
+			children = (
+				823140451A389B2B00FD1BFC /* AppDelegate.swift */,
+				823140471A389B2B00FD1BFC /* ViewController.swift */,
+				823140491A389B2B00FD1BFC /* Main.storyboard */,
+				8231404C1A389B2B00FD1BFC /* Images.xcassets */,
+				8231404E1A389B2B00FD1BFC /* LaunchScreen.xib */,
+				823140431A389B2B00FD1BFC /* Supporting Files */,
+			);
+			path = TylerMonster;
+			sourceTree = "<group>";
+		};
+		823140431A389B2B00FD1BFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				823140441A389B2B00FD1BFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		823140581A389B2B00FD1BFC /* TylerMonsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8231405B1A389B2B00FD1BFC /* TylerMonsterTests.swift */,
+				823140591A389B2B00FD1BFC /* Supporting Files */,
+			);
+			path = TylerMonsterTests;
+			sourceTree = "<group>";
+		};
+		823140591A389B2B00FD1BFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8231405A1A389B2B00FD1BFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8231403F1A389B2B00FD1BFC /* TylerMonster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8231405F1A389B2B00FD1BFC /* Build configuration list for PBXNativeTarget "TylerMonster" */;
+			buildPhases = (
+				8231403C1A389B2B00FD1BFC /* Sources */,
+				8231403D1A389B2B00FD1BFC /* Frameworks */,
+				8231403E1A389B2B00FD1BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TylerMonster;
+			productName = TylerMonster;
+			productReference = 823140401A389B2B00FD1BFC /* TylerMonster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		823140541A389B2B00FD1BFC /* TylerMonsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823140621A389B2B00FD1BFC /* Build configuration list for PBXNativeTarget "TylerMonsterTests" */;
+			buildPhases = (
+				823140511A389B2B00FD1BFC /* Sources */,
+				823140521A389B2B00FD1BFC /* Frameworks */,
+				823140531A389B2B00FD1BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				823140571A389B2B00FD1BFC /* PBXTargetDependency */,
+			);
+			name = TylerMonsterTests;
+			productName = TylerMonsterTests;
+			productReference = 823140551A389B2B00FD1BFC /* TylerMonsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		823140381A389B2B00FD1BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = CTEC;
+				TargetAttributes = {
+					8231403F1A389B2B00FD1BFC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					823140541A389B2B00FD1BFC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8231403F1A389B2B00FD1BFC;
+					};
+				};
+			};
+			buildConfigurationList = 8231403B1A389B2B00FD1BFC /* Build configuration list for PBXProject "TylerMonster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 823140371A389B2B00FD1BFC;
+			productRefGroup = 823140411A389B2B00FD1BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8231403F1A389B2B00FD1BFC /* TylerMonster */,
+				823140541A389B2B00FD1BFC /* TylerMonsterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8231403E1A389B2B00FD1BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8231404B1A389B2B00FD1BFC /* Main.storyboard in Resources */,
+				823140501A389B2B00FD1BFC /* LaunchScreen.xib in Resources */,
+				8231404D1A389B2B00FD1BFC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823140531A389B2B00FD1BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8231403C1A389B2B00FD1BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823140481A389B2B00FD1BFC /* ViewController.swift in Sources */,
+				823140461A389B2B00FD1BFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823140511A389B2B00FD1BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8231405C1A389B2B00FD1BFC /* TylerMonsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		823140571A389B2B00FD1BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8231403F1A389B2B00FD1BFC /* TylerMonster */;
+			targetProxy = 823140561A389B2B00FD1BFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		823140491A389B2B00FD1BFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8231404A1A389B2B00FD1BFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8231404E1A389B2B00FD1BFC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8231404F1A389B2B00FD1BFC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8231405D1A389B2B00FD1BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8231405E1A389B2B00FD1BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		823140601A389B2B00FD1BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TylerMonster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		823140611A389B2B00FD1BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TylerMonster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		823140631A389B2B00FD1BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TylerMonsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TylerMonster.app/TylerMonster";
+			};
+			name = Debug;
+		};
+		823140641A389B2B00FD1BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TylerMonsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TylerMonster.app/TylerMonster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8231403B1A389B2B00FD1BFC /* Build configuration list for PBXProject "TylerMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8231405D1A389B2B00FD1BFC /* Debug */,
+				8231405E1A389B2B00FD1BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8231405F1A389B2B00FD1BFC /* Build configuration list for PBXNativeTarget "TylerMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823140601A389B2B00FD1BFC /* Debug */,
+				823140611A389B2B00FD1BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		823140621A389B2B00FD1BFC /* Build configuration list for PBXNativeTarget "TylerMonsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823140631A389B2B00FD1BFC /* Debug */,
+				823140641A389B2B00FD1BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 823140381A389B2B00FD1BFC /* Project object */;
+}
